@@ -85,8 +85,8 @@ def plot_palette(colors, title):
     return fig
 
 def main():
-    st.set_page_config(page_title="Advanced Color Analyst", page_icon="🎨", layout="wide")
-    st.title("🌈 Advanced Color Analyst")
+    st.set_page_config(page_title="Color Analyst", page_icon="🎨", layout="wide")
+    st.title("🌈 Color Analyst")
     uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "png", "jpeg"])
     
     if uploaded_file:
