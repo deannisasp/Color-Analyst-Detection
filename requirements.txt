@@ -5,5 +5,5 @@ streamlit
 scikit-learn
 pillow
 seaborn
-mtcnn
+mtcnn==0.1.1
 scikit-image
